@@ -1,4 +1,4 @@
-FROM docker.io/alpine:3.13
+FROM docker.io/alpine:3.19
 
 RUN apk add --no-cache openconnect dnsmasq
 
