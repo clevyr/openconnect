@@ -1,6 +1,6 @@
 FROM docker.io/alpine:3.19
 
-RUN apk add --no-cache openconnect dnsmasq ca-certificates
+RUN apk add --no-cache openconnect dnsmasq ca-certificates xmlstarlet
 
 WORKDIR /vpn
 COPY ./entrypoint.sh .
