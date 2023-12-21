@@ -1,7 +1,6 @@
 # OpenConnect Docker Container
 
-![github](https://github.com/aw1cks/openconnect/actions/workflows/main.yml/badge.svg)
-![gitlab](https://gitlab.com/aw1cks/openconnect/badges/master/pipeline.svg)
+[![Build](https://github.com/clevyr/openconnect/actions/workflows/main.yml/badge.svg)](https://github.com/clevyr/openconnect/actions/workflows/main.yml)
 
 ## Why?
 
@@ -13,13 +12,7 @@ Additionally, running in a docker container gives some extra flexibility with ro
 
 The image is built by GitHub Actions for amd64 & arm64 and pushed to the following repositories:
 
- - [Docker Hub](https://hub.docker.com/r/aw1cks/openconnect)
- - [GitHub Container Registry](https://github.com/users/aw1cks/packages/container/package/openconnect)
- - [quay.io](https://quay.io/repository/aw1cks/openconnect)
-
- There is additionally a build running in GitLab CI published to:
-
- - [GitLab](https://gitlab.com/aw1cks/openconnect/container_registry/2011097)
+ - [GitHub Container Registry](https://github.com/orgs/clevyr/packages/container/package/openconnect)
 
 ## How do I use it?
 
