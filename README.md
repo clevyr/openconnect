@@ -85,16 +85,8 @@ $ ./stop.sh # Tears down the container and cleans up the routing table
 
 ## Building the container yourself
 
-The following build args are used:
-
- - `BUILD_DATE` (RFC3339 timestamp)
- - `COMMIT_SHA` (commit hash from which image was built)
-
 ```shell
-docker build \
-  --build-arg BUILD_DATE="$(date -u +'%Y-%m-%dT%H:%M:%SZ')" \
-  --build-arg COMMIT_SHA="$(git rev-parse HEAD 2>/dev/null || echo 'null')" \
-  -t openconnect .
+docker build -t openconnect .
 ```
 
 ## Known issues
