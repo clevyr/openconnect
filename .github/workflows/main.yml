@@ -27,7 +27,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: QEMU
-        uses: docker/setup-qemu-action@v1
+        uses: docker/setup-qemu-action@v3
 
       - name: BuildKit
         uses: docker/setup-buildx-action@v3
