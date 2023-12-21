@@ -55,6 +55,8 @@ then
   OPENCONNECT_ARGS="${OPENCONNECT_ARGS} ${EXTRA_ARGS}"
 fi
 
+OPENCONNECT_ARGS="${OPENCONNECT_ARGS} --useragent=${USERAGENT:-AnyConnect}"
+
 # URL needs to be the last argument
 printf "\e[32mSetting URL...\e[0m\n"
 OPENCONNECT_ARGS="${OPENCONNECT_ARGS} ${URL}"

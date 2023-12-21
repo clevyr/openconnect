@@ -44,6 +44,7 @@ docker.io/aw1cks/openconnect'
 | `PASS`           | Password to authenticate with                                                                                                                | `mypassword`                                                |
 | `OTP`            | OTP/2FA code (optional)                                                                                                                      | `123456`                                                    |
 | `SEARCH_DOMAINS` | Search domains to use. DNS for these domains will be routed via the VPN's DNS servers (optional). Separate with a space for multiple domains | `my.corporate-domain.com subdomain.my.corporate-domain.com` |
+| `USERAGENT`      | User-Agent to pass to OpenConnect.                                                                                                           | `AnyConnect`                                                |
 | `EXTRA_ARGS`     | Any additional arguments to be passed to the OpenConnect client (optional). Only use this if you need something specific                     | `--verbose`                                                 |
 
 ## Helper scripts
