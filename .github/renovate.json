@@ -3,5 +3,6 @@
   "extends": [
     "local>clevyr/renovate-config-public",
     ":automergeAll"
-  ]
+  ],
+  "forkProcessing": "enabled"
 }
